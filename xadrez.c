@@ -5,11 +5,11 @@
 #define MOVIMENTO_TORRE 5
 #define MOVIMENTO_RAINHA 8
 
-// Função principal do programa
+
 int main() {
     printf("--- Simulacao de Movimento das Pecas ---\n\n");
 
-    // --- Movimentacao do Bispo (utilizando 'for') ---
+    // Movimentacao do Bispo (utilizando 'for') 
     printf("Movimentacao do Bispo (5 casas na diagonal superior direita):\n");
     
     // A movimentacao do Bispo é uma combinacao de 'Cima' e 'Direita'
@@ -42,7 +42,7 @@ int main() {
     } while (contador_rainha < MOVIMENTO_RAINHA);
     printf("\n");
 
-    return 0; // Retorna 0 para indicar que o programa executou com sucesso
+    return 0; 
 }
 
 
