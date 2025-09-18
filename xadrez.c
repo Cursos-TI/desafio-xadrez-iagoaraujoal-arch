@@ -18,13 +18,12 @@ int main() {
         printf("Cima\n");
         printf("Direita\n");
     }
-    printf("\n"); // Adiciona uma linha em branco para melhor visualizacao
+    printf("\n"); 
 
-    // --- Movimentacao da Torre (utilizando 'while') ---
+    //  Movimentacao da Torre (utilizando 'while')
     printf("Movimentacao da Torre (5 casas para a direita):\n");
     
     // O loop 'while' é usado para um número de repetições que pode ser variável
-    // (mesmo que aqui seja fixo, demonstra o uso da estrutura)
     int contador_torre = 0;
     while (contador_torre < MOVIMENTO_TORRE) {
         printf("Direita\n");
@@ -32,11 +31,10 @@ int main() {
     }
     printf("\n");
 
-    // --- Movimentacao da Rainha (utilizando 'do-while') ---
+    // Movimentacao da Rainha (utilizando 'do-while')
     printf("Movimentacao da Rainha (8 casas para a esquerda):\n");
     
     // O loop 'do-while' garante que o bloco de codigo seja executado pelo menos uma vez,
-    // o que é util para cenarios onde a condicao é verificada no final
     int contador_rainha = 0;
     do {
         printf("Esquerda\n");
